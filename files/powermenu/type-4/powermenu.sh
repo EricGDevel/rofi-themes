@@ -10,8 +10,10 @@
 ## style-1   style-2   style-3   style-4   style-5
 
 # Current Theme
-dir="$HOME/.config/rofi/powermenu/type-4"
-theme='style-5'
+ROFI_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/rofi"
+dir="$ROFI_CONFIG_DIR/powermenu/type-4"
+theme='style-1'
+
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"

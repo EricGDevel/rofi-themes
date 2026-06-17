@@ -10,7 +10,8 @@
 ## style-1   style-2   style-3   style-4   style-5
 
 # Current Theme
-dir="$HOME/.config/rofi/powermenu/type-3"
+ROFI_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/rofi"
+dir="$ROFI_CONFIG_DIR/powermenu/type-3"
 theme='style-1'
 
 # CMDs
@@ -39,7 +40,7 @@ confirm_cmd() {
 	rofi -dmenu \
 		-p 'Confirmation' \
 		-mesg 'Are you Sure?' \
-		-theme ${dir}/shared/confirm.rasi
+		-theme ${ROFI_CONFIG_DIR}/shared/confirm.rasi
 }
 
 # Ask for confirmation
