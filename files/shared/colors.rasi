@@ -1,0 +1,4 @@
+/**
+ * Global Colors
+ **/
+@import "~/.config/rofi/colors/onedark.rasi"

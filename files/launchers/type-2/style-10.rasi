@@ -16,8 +16,8 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/colors.rasi"
-@import                          "shared/fonts.rasi"
+@import "../../shared/colors.rasi"
+@import "../../shared/fonts.rasi"
 
 * {
     /* For Screens with 1920x1080 resolution */
