@@ -5,8 +5,17 @@
 #
 ## Applets : Volume
 
+# ROFI_CONFIG_DIR
+ROFI_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/rofi"
+
 # Import Current Theme
-source "$HOME"/.config/rofi/applets/shared/theme.bash
+if [[ -n "$ROFI_APPLETS_TYPE" && -n "$ROFI_APPLETS_STYLE" ]]; then
+    type="$ROFI_CONFIG_DIR/applets/$ROFI_APPLETS_TYPE"
+    style="$ROFI_APPLETS_STYLE"
+    [[ "$style" != *.rasi ]] && style="${style}.rasi"
+else
+    source "$ROFI_CONFIG_DIR"/applets/shared/theme.bash
+fi
 theme="$type/$style"
 
 # Volume Info
