@@ -5,19 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/adi1090x/rofi?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/adi1090x/rofi?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/adi1090x/rofi?color=violet&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/adi1090x/rofi?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/EricGDevel/rofi-themes?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/EricGDevel/rofi-themes?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/EricGDevel/rofi-themes?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/EricGDevel/rofi-themes?color=teal&style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/adi1090x/rofi#launchers" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/launchers-skyblue?style=for-the-badge"></a>
-  <a href="https://github.com/adi1090x/rofi#applets" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/applets-lightgreen?style=for-the-badge"></a>
-  <a href="https://github.com/adi1090x/rofi#powermenus" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/powermenus-pink?style=for-the-badge"></a>
+  <a href="https://github.com/EricGDevel/rofi-themes#launchers" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/launchers-skyblue?style=for-the-badge"></a>
+  <a href="https://github.com/EricGDevel/rofi-themes#applets" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/applets-lightgreen?style=for-the-badge"></a>
+  <a href="https://github.com/EricGDevel/rofi-themes#powermenus" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/powermenus-pink?style=for-the-badge"></a>
 </p>
 
 <p align="center">A huge collection of <a href="https://github.com/davatorium/rofi">Rofi</a> based custom <i>Applets</i>, <i>Launchers</i> & <i>Powermenus</i>.</p>
+
+<p align="center"><b>This is a fork of <a href="https://github.com/adi1090x/rofi">adi1090x/rofi</a></b>, with added Hyprland support.</p>
 
 <details>
 <summary><b><code>Launchers</code></b></summary>
@@ -73,12 +75,12 @@
 
 - Then, Clone this repository -
 ```
-$ git clone --depth=1 https://github.com/adi1090x/rofi.git
+$ git clone --depth=1 https://github.com/EricGDevel/rofi-themes.git
 ```
 
 - Change to cloned directory and make `setup.sh` executable -
 ```
-$ cd rofi
+$ cd rofi-themes
 $ chmod +x setup.sh
 ```
 
@@ -101,15 +103,7 @@ $ ./setup.sh
 ---
 
 <p align="center">
-  <a href="https://github.com/sponsors/adi1090x"><img src="previews/sponsor.png" width="256px"></a>
-</p>
-
-<p align="center">
-  <b>Special thanks to all the Sponsors</b>. Maintenance of this project is made possible by you guys. If you'd like to sponsor this project and have your avatar appear below, <a href="https://github.com/sponsors/adi1090x">click here</a> 💖
-</p>
-
-<p align="center">
-  <!-- sponsors --><a href="https://github.com/davidtoska"><img src="https:&#x2F;&#x2F;github.com&#x2F;davidtoska.png" width="60px" alt="User avatar: David Toska" /></a><a href="https://github.com/dgxlab"><img src="https:&#x2F;&#x2F;github.com&#x2F;dgxlab.png" width="60px" alt="User avatar: David Vargas" /></a><!-- sponsors -->
+  This project is a fork of <a href="https://github.com/adi1090x/rofi"><b>adi1090x/rofi</b></a>. All credit for the original themes, design, and the bulk of this work goes to <a href="https://github.com/adi1090x">adi1090x</a>.
 </p>
 
 ---
@@ -520,6 +514,7 @@ Same thing can be done with `openbox` by adding these lines to **`rc.xml`** file
 
 ## FYI
 
-- For previous versions, check the respective branch, [1.7.0](https://github.com/adi1090x/rofi/tree/1.7.0) is the most recent branch.
+- This fork tracks [adi1090x/rofi](https://github.com/adi1090x/rofi). For previous upstream versions, check the respective branch there, [1.7.0](https://github.com/adi1090x/rofi/tree/1.7.0) is the most recent.
+- Hyprland is supported in this fork — see the [Installation](#installation) section for setup.
 - These themes are created on a display with **1920x1080** resolution. Everything should work fine on your display as well, except fullscreen themes. So Adjust the **`margin`** and **`padding`** by yourself.
 - The purpose of this repository is to provide you a complete (almost) reference. So by using the files as reference, You can theme rofi by yourself.
